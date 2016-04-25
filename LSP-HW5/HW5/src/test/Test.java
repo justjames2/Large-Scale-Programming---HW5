@@ -85,13 +85,13 @@ public class Test//(Main)
 		Term myTerm7 = new Term(13, 3);
 		Term myTerm8 = new Term(1, 3);
 		Polynomial myPolynomial = new Polynomial();
-		myPolynomial.insert(myTerm1);
-		myPolynomial.insert(myTerm2);
-		myPolynomial.insert(myTerm3);
-		myPolynomial.insert(myTerm4);
-		myPolynomial.insert(myTerm5);
-		myPolynomial.insert(myTerm6);
-		myPolynomial.insert(myTerm7);
+		myPoly.insert(myTerm1);
+		myPoly.insert(myTerm2);
+		myPoly.insert(myTerm3);
+		myPoly.insert(myTerm4);
+		myPoly.insert(myTerm5);
+		myPoly.insert(myTerm6);
+		myPoly.insert(myTerm7);
 		
 		expression = myPoly.getList();
 		System.out.println("Array List: " + expression);
